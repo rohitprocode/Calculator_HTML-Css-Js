@@ -4,7 +4,6 @@
     font-family: 'PT Serif', serif;
     margin: 0;
     padding: 0;
-    background-color:lightslategrey;
     box-sizing: border-box;
 }
 
@@ -21,12 +20,12 @@ body{
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
-    background-color: transparent;
-    box-shadow: 0px 3px 15px rgba(113,115,115,0.7);
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119, 0.7);
 }
 
 input{
-    width: 100%;
+    width: 320px;
     border: #0a0a0a;
     padding: 24px;
     margin: 10px;
@@ -35,9 +34,20 @@ input{
     font-size: 40px;
     text-align: right;
     color: white;
+    cursor:pointer;
 }
 
 input::placeholder{
-    color: white;
-    
+    color: #ffffff;
+}
+
+button{
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
 }
