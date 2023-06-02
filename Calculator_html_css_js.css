@@ -62,3 +62,12 @@ button{
 .operator{
     color: greenyellow;
 }
+
+#acBtn{
+    background-color: red;
+    color:white;
+}
+
+#delBtn{
+    color: red;
+}
