@@ -78,14 +78,40 @@ button{
     color: red;
 }
 
-@media (max-width:320px){
+@media (max-width:768px){
     *{
-        margin: 1px;
-        padding: 1px;
         box-sizing: border-box;
     }
     h1{
         background-color: black;
         color: white;
+    }
+    .body2{
+        margin: 1px;
+        padding: 1px;
+    }
+    .calculator_body{
+        border: 1px solid blue;
+        padding: 5px;
+    }
+    input{
+        width: 320px;
+        padding: 5px;
+        margin: 5px;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+    
+    }
+    input::placeholder{
+        color: black;
+    }
+    button{
+        background-color: white;
+        color: black;
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        border-radius: 25%;
     }
 }
